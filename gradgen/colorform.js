@@ -92,10 +92,10 @@
 							d[i] = 255 - x;
 							break;
 						case 9:		//[true, false, false, true]
-							d[i] = Math.min(256 - x, 256 - y) + Math.min(x, y);
+							d[i] = Math.max(Math.min(256 - x, 256 - y), Math.min(x, y));
 							break;
 						case 6:		//[false, true, true, false]
-							d[i] = Math.min(x, 256 - y) + Math.min(256 - x, y);
+							d[i] = Math.max(Math.min(x, 256 - y), Math.min(256 - x, y));
 							break;
 						case 10:		//[false, true, false, true]
 							d[i] = x;
