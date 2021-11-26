@@ -1,0 +1,22 @@
+* {
+	float: left;
+}
+#c {
+	clear: both;
+	margin-top: 0.125in;
+}
+.top {
+	margin-bottom: 0.0625in;
+}
+.bottom {
+	margin-top: 0.0625in;
+}
+.left {
+	margin-right: 0.0625in;
+}
+.right {
+	margin-left: 0.0625in;
+}
+.bottom.left {
+	clear: both;	
+}
